@@ -14,3 +14,8 @@ b = 13
 h = 6
 pole_trap = ((a+b)*h)/2
 print("Pole trapezu wynosi: "+str(pole_trap))
+
+
+r = 34
+pole_kolo = round(math.pi * (r^2),2)
+print("Pole kola wynosi: "+str(pole_kolo))
